@@ -1,8 +1,8 @@
 # Pemodelan Dinamik Neraca Perbankan dengan Kebijakan Rasio Leverage
 
-[![Mathematical Modeling](https://img.shields.io/badge/Model-Dynamic%20%26%20Stochastic-blue.svg)]()
-[![Optimization](https://img.shields.io/badge/Algorithm-PSO%20(MAPE%201.55%25)-green.svg)]()
-[![Implementation](https://img.shields.io/badge/Tool-MATLAB-orange.svg)]()
+[![Mathematical Modeling](https://img.shields.io/badge/Model-Dynamic%20%26%20Stochastic-blue.svg)](#-formulasi-model-matematika)
+[![Optimization](https://img.shields.io/badge/Algorithm-PSO%20(MAPE%201.55%25)-green.svg)](#-metodologi--simulasi-numerik)
+[![Implementation](https://img.shields.io/badge/Tool-MATLAB-orange.svg)](https://www.mathworks.com/products/matlab.html)
 
 ## 📌 Ringkasan Penelitian
 Repositori ini memuat formulasi matematika, analisis kestabilan, dan simulasi numerik dari **Model Dinamik Neraca Perbankan**. Penelitian ini menghubungkan tiga variabel utama neraca bank—**Dana Pihak Ketiga (DPK)**, **Kredit**, dan **Ekuitas**—dengan mengintegrasikan **kebijakan rasio leverage** serta **Giro Wajib Minimum (GWM)** sebagai instrumen regulasi makroprudensial.
