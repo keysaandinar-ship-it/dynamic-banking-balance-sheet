@@ -45,6 +45,49 @@ Untuk mengakomodasi ketidakpastian pasar finansial, model dikembangkan ke bentuk
 
 ---
 
+## 📊 Hasil Simulasi & Visualisasi
+
+### 1. Diagram Fase & Interaksi Variabel
+Analisis trayektori sistem dinamik dalam ruang keadaan 3D dan bidang fase 2D antar variabel neraca perbankan: Dana Pihak Ketiga ($D$), Kredit ($K$), dan Ekuitas ($E$)[cite: 1].
+
+| Diagram Fase 3D | DPK vs Ekuitas |
+| :---: | :---: |
+| ![3D Diagram Fase](results/3D_diagram_fase.png) | ![D vs E](results/D_vs_E.png) |
+
+| DPK vs Kredit | Kredit vs Ekuitas |
+| :---: | :---: |
+| ![D vs K](results/D_vs_K.png) | ![K vs E](results/K_vs_E.png) |
+
+---
+
+### 2. Estimasi Parameter (Particle Swarm Optimization)
+Kesesuaian hasil *fitting* data empiris historis perbankan Indonesia menggunakan optimasi PSO (Rata-rata MAPE = 1.5539%)[cite: 1].
+
+| DPK ($D$) | Ekuitas ($E$) | Kredit ($K$) |
+| :---: | :---: | :---: |
+| ![PSO D](results/PSO_D.png) | ![PSO E](results/PSO_E.png) | ![PSO K](results/PSO_K.png) |
+
+---
+
+### 3. Simulasi Stokastik (Metode Euler-Maruyama)
+Dinamika trayektori variabel terhadap waktu di bawah pengaruh fluktuasi acak (proses Wiener) pada laju penarikan DPK dan rasio NPL[cite: 1].
+
+| Stokastik DPK | Stokastik Ekuitas | Stokastik Kredit |
+| :---: | :---: | :---: |
+| ![Stokastik D](results/stokastik_D.png) | ![Stokastik E](results/stokastik_E.png) | ![Stokastik K](results/stokastik_K.png) |
+
+---
+
+### 4. Analisis Sensitivitas (Coefficient of Variation)
+Evaluasi *Coefficient of Variation* (CV) untuk mengukur tingkat kerentanan relatif masing-masing variabel terhadap gangguan stokastik pasar[cite: 1].
+
+| CV DPK | CV Ekuitas | CV Kredit |
+| :---: | :---: | :---: |
+| ![CV D](results/CV_D.png) | ![CV E](results/CV_E.png) | ![CV K](results/CV_K.png) |
+
+---
+
+
 ## 📊 Hasil Utama & Implikasi Kebijakan
 
 - **Kestabilan Sistem**: Sistem memiliki titik kesetimbangan yang bersifat **stabil asimtotik lokal**, baik pada kondisi deterministik maupun stokastik.
