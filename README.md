@@ -59,10 +59,14 @@ Untuk mengakomodasi ketidakpastian pasar finansial, model dikembangkan ke bentuk
 Seluruh simulasi matematika, fungsi estimasi parameter, dan visualisasi grafik diimplementasikan menggunakan **MATLAB**:
 
 ```text
-├── src/
-│   ├── deterministic_model.m   # Analisis sistem ODE & titik kesetimbangan
-│   ├── pso_estimation.m        # Optimasi parameter berbasis PSO
-│   ├── euler_maruyama.m        # Simulasi numerik SDE & Monte Carlo
-│   └── sensitivity_analysis.m  # Analisis sensitivitas parameter (GWM & Leverage)
-└── data/
-    └── banking_data.mat        # Data historis perbankan
+├── data/
+│   └── Dataku.xlsx              # Data historis perbankan
+└── src/
+    ├── bank_model.m             # Model ODE neraca perbankan
+    ├── cost_function.m          # Fungsi biaya untuk optimasi PSO
+    ├── PSO_Main.m               # Skrip utama estimasi parameter PSO
+    ├── stokastik.m              # Simulasi SDE (Euler-Maruyama)
+    ├── diagram_fase.m           # Visualisasi diagram fase
+    ├── sensitivitas_lambda.m    # Analisis sensitivitas parameter lambda
+    └── Sensitivitas_rho.m       # Analisis sensitivitas parameter rho
+```
