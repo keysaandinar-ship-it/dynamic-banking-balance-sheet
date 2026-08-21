@@ -52,11 +52,11 @@ Analisis trayektori sistem dinamik dalam ruang keadaan 3D dan bidang fase 2D ant
 
 | Diagram Fase 3D | DPK vs Ekuitas |
 | :---: | :---: |
-| ![3D Diagram Fase](results/3D_diagram_fase.png) | ![D vs E](results/D_vs_E.png) |
+| ![3D Diagram Fase](result/3D_diagram_fase.png) | ![D vs E](result/D_vs_E.png) |
 
 | DPK vs Kredit | Kredit vs Ekuitas |
 | :---: | :---: |
-| ![D vs K](results/D_vs_K.png) | ![K vs E](results/K_vs_E.png) |
+| ![D vs K](result/D_vs_K.png) | ![K vs E](result/K_vs_E.png) |
 
 ---
 
@@ -65,7 +65,7 @@ Kesesuaian hasil *fitting* data empiris historis perbankan Indonesia menggunakan
 
 | DPK ($D$) | Ekuitas ($E$) | Kredit ($K$) |
 | :---: | :---: | :---: |
-| ![PSO D](results/PSO_D.png) | ![PSO E](results/PSO_E.png) | ![PSO K](results/PSO_K.png) |
+| ![PSO D](result/PSO_D.png) | ![PSO E](result/PSO_E.png) | ![PSO K](result/PSO_K.png) |
 
 ---
 
@@ -74,7 +74,7 @@ Dinamika trayektori variabel terhadap waktu di bawah pengaruh fluktuasi acak (pr
 
 | Stokastik DPK | Stokastik Ekuitas | Stokastik Kredit |
 | :---: | :---: | :---: |
-| ![Stokastik D](results/stokastik_D.png) | ![Stokastik E](results/stokastik_E.png) | ![Stokastik K](results/stokastik_K.png) |
+| ![Stokastik D](result/stokastik_D.png) | ![Stokastik E](result/stokastik_E.png) | ![Stokastik K](result/stokastik_K.png) |
 
 ---
 
@@ -83,7 +83,7 @@ Evaluasi *Coefficient of Variation* (CV) untuk mengukur tingkat kerentanan relat
 
 | CV DPK | CV Ekuitas | CV Kredit |
 | :---: | :---: | :---: |
-| ![CV D](results/CV_D.png) | ![CV E](results/CV_E.png) | ![CV K](results/CV_K.png) |
+| ![CV D](result/CV_D.png) | ![CV E](result/CV_E.png) | ![CV K](result/CV_K.png) |
 
 ---
 
